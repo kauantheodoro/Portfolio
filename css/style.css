@@ -1,10 +1,8 @@
-/* Reset de estilos padrão do navegador */
 html, body {
     margin: 0;
     padding: 0;
 }
 
-/* Estilos gerais para o corpo da página */
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: #2b2b2b;
@@ -14,7 +12,6 @@ body {
     padding: 0;
 }
 
-/* Estilos da barra de navegação */
 .navigation {
     background-color: #333;
     text-align: right;
@@ -43,7 +40,6 @@ body {
     color: #f27609;
 }
 
-/* Estilos para a capa (página inicial) */
 .capa {
     text-align: center;
     padding: 40px;
@@ -77,7 +73,6 @@ body {
     color: white;
 }
 
-/* Estilos para o conteúdo principal */
 .main {
     padding: 40px;
     max-width: 1200px;
@@ -105,7 +100,6 @@ body {
     color: white;
 }
 
-/* Estilos para a barra de navegação "caminho" */
 .caminho {
     list-style: none;
     color: grey;
@@ -120,19 +114,18 @@ body {
     color: gray;
 }
 
-/* Animação para a imagem de perfil na capa */
 @keyframes profile-capa {
     0% { opacity: 0; }
     100% { opacity: 1; }
 }
-/* Adicione estilos para a imagem de fundo */
+
 .background-image {
     position: fixed;
     top: 0;
     left: 0;
     width: 200%;
     height: 100%;
-    z-index: -1; /* Coloca a imagem atrás do conteúdo */
+    z-index: -1; 
 }
 
 .background-image img {
@@ -140,30 +133,30 @@ body {
     width: 50%;
     height: 100%;
 }
-/* Adicione estilos para a imagem de fundo */
+
 .background-image {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: -1; /* Coloca a imagem atrás do conteúdo */
+    z-index: -1; 
 }
 
 .background-image img {
     object-fit: cover;
     width: 100%;
     height: 100%;
-    opacity: 0.5; /* Define a opacidade desejada para a marca d'água */
+    opacity: 0.5; 
     position: absolute;
     top: 0;
     left: 0;
 }
-/* Estilos para o link "Voltar ao início" */
+
 a {
     
-    color: white; /* Define a cor do texto como branca */
-    text-decoration: none; /* Remove a sublinhado do link */
+    color: white; 
+    text-decoration: none; 
    
 }
 @media(max-width: 1000px){
@@ -188,13 +181,12 @@ a {
     width: 100%;
     padding: 0;
 }
-/* Reset de estilos padrão do navegador */
+
 html, body {
     margin: 0;
     padding: 0;
 }
 
-/* Estilos gerais para o corpo da página */
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: #2b2b2b;
@@ -204,7 +196,7 @@ body {
     padding: 0;
 }
 
-/* Estilos da barra de navegação */
+
 .navigation {
     background-color: #333;
     text-align: right;
@@ -233,19 +225,18 @@ body {
     color: #f27609;
 }
 
-/* Estilos para a tela de contato */
 .container {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #333; /* Fundo escuro */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
-    border-radius: 10px; /* Bordas arredondadas */
+    background-color: #333; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    border-radius: 10px; 
 }
 
 .container h1 {
     text-align: center;
-    color: white; /* Cor do título */
+    color: white; 
 }
 
 .container form {
@@ -257,36 +248,36 @@ body {
 .container textarea {
     display: block;
     margin-bottom: 10px;
-    color: #f27609; /* Cor do texto principal */
+    color: #f27609; 
 }
 
 .container input,
 .container textarea {
-    width: calc(100% - 20px); /* Largura total menos margens */
+    width: calc(100% - 20px); 
     padding: 10px;
-    border: 1px solid #555; /* Borda leve */
-    border-radius: 5px; /* Bordas arredondadas */
+    border: 1px solid #555; 
+    border-radius: 5px; 
 }
 
 .container button {
-    background-color: #f27609; /* Cor laranja */
+    background-color: #f27609; 
     color: white;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
-    border-radius: 5px; /* Bordas arredondadas */
+    border-radius: 5px; 
 }
 
 .container button:hover {
-    background-color: #d45a00; /* Cor laranja mais escura ao passar o mouse */
+    background-color: #d45a00; 
 }
-/* Reset de estilos padrão do navegador */
+
 html, body {
     margin: 0;
     padding: 0;
 }
 
-/* Estilos gerais para o corpo da página */
+
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: #2b2b2b;
@@ -296,7 +287,6 @@ body {
     padding: 0;
 }
 
-/* Estilos da barra de navegação */
 .navigation {
     background-color: #333;
     text-align: right;
@@ -325,7 +315,6 @@ body {
     color: #f27609;
 }
 
-/* Estilos para a capa (página inicial) */
 .capa {
     text-align: center;
     padding: 40px;
@@ -359,7 +348,6 @@ body {
     color: white;
 }
 
-/* Estilos para o conteúdo principal */
 .main {
     padding: 40px;
     max-width: 1200px;
@@ -387,7 +375,6 @@ body {
     color: white;
 }
 
-/* Estilos para a barra de navegação "caminho" */
 .caminho {
     list-style: none;
     color: grey;
@@ -402,13 +389,12 @@ body {
     color: gray;
 }
 
-/* Animação para a imagem de perfil na capa */
 @keyframes profile-capa {
     0% { opacity: 0; }
     100% { opacity: 1; }
 }
 
-/* Adapte o estilo da barra de navegação para telas menores */
+
 @media (max-width: 768px) {
     .navigation {
         padding: 10px;
@@ -422,14 +408,14 @@ body {
     }
 }
 
-/* Adapte o estilo das telas para telas menores */
+
 @media (max-width: 768px) {
     .container, .main {
         max-width: 100%;
     }
 }
 
-/* Adapte o estilo do ícone para telas menores */
+
 @media (max-width: 1000px) {
     .navigation li {
         display: none;
