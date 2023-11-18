@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="js/script.js"></script>
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #333;
+            color: #333;
+        }
+
+        .navigation {
+            background-color: #333;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .navigation ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navigation li {
+            display: inline-block;
+            margin-right: 15px;
+        }
+
+        .navigation a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        .main {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        .project {
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin: 20px;
+            max-width: 300px;
+            display: inline-block;
+            text-align: center;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .project:hover {
+            transform: scale(1.05);
+        }
+
+        .project img {
+            max-width: 100%;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .project h2 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .project p {
+            font-size: 16px;
+            margin-bottom: 15px;
+        }
+
+        .project a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #333;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .project a:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="navigation" class="navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="curriculo.html">Curriculo</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li id="threeline-icon" class="threeline-icon" onclick="openNav()">&#9776;</li>
+        </ul>
+    </div>
+    <div class="main">
+        <h1>Meu Portfólio</h1>
+
+        <div class="project">
+            <img src="img/projeto1/logo1.png" alt="Projeto 1">
+            <h2>Projeto - Banco de Dados</h2>
+            <a href="projeto1.html">Saiba mais</a>
+        </div>
+
+    </div>
+</body>
+
+</html>

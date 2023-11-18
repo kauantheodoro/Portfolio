@@ -1,0 +1,458 @@
+/* Reset de estilos padrão do navegador */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos gerais para o corpo da página */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #2b2b2b;
+    color: white;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos da barra de navegação */
+.navigation {
+    background-color: #333;
+    text-align: right;
+    padding: 20px;
+}
+
+.navigation ul {
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation li {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: white;
+}
+
+.navigation a:hover {
+    color: #f27609;
+}
+
+/* Estilos para a capa (página inicial) */
+.capa {
+    text-align: center;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.profile-pic img {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+    margin-top: 40px;
+}
+
+.profile-title h1 {
+    font-size: 48px;
+    color: white;
+    font-weight: 400;
+}
+
+.profile-title span {
+    color: #f27609;
+}
+
+.profile-title h2 {
+    font-size: 28px;
+    color: white;
+}
+
+/* Estilos para o conteúdo principal */
+.main {
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main h1 {
+    font-size: 32px;
+    color: white;
+}
+
+.main h2 {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #f27609;
+}
+
+.main h3 {
+    font-size: 12px;
+    color: #f27609;
+}
+
+.main p {
+    font-size: 18px;
+    color: white;
+}
+
+/* Estilos para a barra de navegação "caminho" */
+.caminho {
+    list-style: none;
+    color: grey;
+    padding-left: 0;
+}
+
+.caminho li {
+    display: inline-block;
+}
+
+.caminho a {
+    color: gray;
+}
+
+/* Animação para a imagem de perfil na capa */
+@keyframes profile-capa {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+/* Adicione estilos para a imagem de fundo */
+.background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 100%;
+    z-index: -1; /* Coloca a imagem atrás do conteúdo */
+}
+
+.background-image img {
+    object-fit: contain;
+    width: 50%;
+    height: 100%;
+}
+/* Adicione estilos para a imagem de fundo */
+.background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Coloca a imagem atrás do conteúdo */
+}
+
+.background-image img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5; /* Define a opacidade desejada para a marca d'água */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/* Estilos para o link "Voltar ao início" */
+a {
+    
+    color: white; /* Define a cor do texto como branca */
+    text-decoration: none; /* Remove a sublinhado do link */
+   
+}
+@media(max-width: 1000px){
+    .navigation li{
+        display: none;
+    }
+    .navigation li.threeline-icon {
+        display: inline-block;
+    }
+}
+.menujs{
+   height: auto; 
+}
+.menuJs ul{
+    height: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.menuJs li {
+    display: block;
+    border-bottom: solid grey 1px;
+    width: 100%;
+    padding: 0;
+}
+/* Reset de estilos padrão do navegador */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos gerais para o corpo da página */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #2b2b2b;
+    color: white;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos da barra de navegação */
+.navigation {
+    background-color: #333;
+    text-align: right;
+    padding: 20px;
+}
+
+.navigation ul {
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation li {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: white;
+}
+
+.navigation a:hover {
+    color: #f27609;
+}
+
+/* Estilos para a tela de contato */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #333; /* Fundo escuro */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    border-radius: 10px; /* Bordas arredondadas */
+}
+
+.container h1 {
+    text-align: center;
+    color: white; /* Cor do título */
+}
+
+.container form {
+    margin-top: 20px;
+}
+
+.container label,
+.container input,
+.container textarea {
+    display: block;
+    margin-bottom: 10px;
+    color: #f27609; /* Cor do texto principal */
+}
+
+.container input,
+.container textarea {
+    width: calc(100% - 20px); /* Largura total menos margens */
+    padding: 10px;
+    border: 1px solid #555; /* Borda leve */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+.container button {
+    background-color: #f27609; /* Cor laranja */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+.container button:hover {
+    background-color: #d45a00; /* Cor laranja mais escura ao passar o mouse */
+}
+/* Reset de estilos padrão do navegador */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos gerais para o corpo da página */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #2b2b2b;
+    color: white;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos da barra de navegação */
+.navigation {
+    background-color: #333;
+    text-align: right;
+    padding: 20px;
+}
+
+.navigation ul {
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation li {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: white;
+}
+
+.navigation a:hover {
+    color: #f27609;
+}
+
+/* Estilos para a capa (página inicial) */
+.capa {
+    text-align: center;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.profile-pic img {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+    margin-top: 40px;
+}
+
+.profile-title h1 {
+    font-size: 48px;
+    color: white;
+    font-weight: 400;
+}
+
+.profile-title span {
+    color: #f27609;
+}
+
+.profile-title h2 {
+    font-size: 28px;
+    color: white;
+}
+
+/* Estilos para o conteúdo principal */
+.main {
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main h1 {
+    font-size: 32px;
+    color: white;
+}
+
+.main h2 {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #f27609;
+}
+
+.main h3 {
+    font-size: 12px;
+    color: #f27609;
+}
+
+.main p {
+    font-size: 18px;
+    color: white;
+}
+
+/* Estilos para a barra de navegação "caminho" */
+.caminho {
+    list-style: none;
+    color: grey;
+    padding-left: 0;
+}
+
+.caminho li {
+    display: inline-block;
+}
+
+.caminho a {
+    color: gray;
+}
+
+/* Animação para a imagem de perfil na capa */
+@keyframes profile-capa {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+/* Adapte o estilo da barra de navegação para telas menores */
+@media (max-width: 768px) {
+    .navigation {
+        padding: 10px;
+    }
+    .navigation ul {
+        text-align: center;
+    }
+    .navigation li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+/* Adapte o estilo das telas para telas menores */
+@media (max-width: 768px) {
+    .container, .main {
+        max-width: 100%;
+    }
+}
+
+/* Adapte o estilo do ícone para telas menores */
+@media (max-width: 1000px) {
+    .navigation li {
+        display: none;
+    }
+    .navigation li.threeline-icon {
+        display: inline-block;
+    }
+}
+
+.menujs {
+    height: auto;
+}
+
+.menuJs ul {
+    height: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.menuJs li {
+    display: block;
+    border-bottom: solid grey 1px;
+    width: 100%;
+    padding: 0;
+}
+

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Detalhes do Projeto</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="js/script.js"></script>
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #333;
+            color: #333;
+        }
+
+        .navigation {
+            background-color: #333;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .navigation ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navigation li {
+            display: inline-block;
+            margin-right: 15px;
+        }
+
+        .navigation a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        .project-details {
+            margin-top: 20px;
+        }
+
+        /* Grades de Imagens */
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            grid-gap: 20px;
+            margin-top: 20px;
+        }
+
+        .image-grid img {
+            width: 100%;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        .image-grid div:hover img {
+            transform: scale(1.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #333;
+            color: #333;
+        }
+
+
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            grid-gap: 20px;
+            margin-top: 20px;
+        }
+
+        .image-grid img {
+            width: 100%;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div id="navigation" class="navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="curriculo.html">Curriculo</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li id="threeline-icon" class="threeline-icon" onclick="openNav()">&#9776;</li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <h1>Detalhes do Projeto 1</h1>
+        <div class="project-details">
+            <p><strong>Projeto :</strong> Sistema Básico de Pedidos</p>
+            <p><strong>Descrição:</strong> O projeto consiste na criação de um website para gerenciamento de um sistema de pedidos, clientes e produtos, utilizando um banco de dados relacional. As principais etapas incluem a implementação do banco de dados físico, a criação de funcionalidades para inclusão, alteração e exclusão de dados, a elaboração de consultas específicas, e a geração de relatórios em formato PDF. O website será composto por uma interface intuitiva que permitirá aos usuários realizar operações como cadastrar novos clientes, produtos e pedidos, consultar informações específicas, e gerar relatórios detalhados com base nos dados armazenados no sistema.</p>
+            <p><strong>Data de Conclusão:</strong> 28 de Novembro de 2023</p>
+            <p><strong>Tecnologias Utilizadas:</strong> Php - Html</p>
+
+            <div class="image-grid">
+                <div><img src="img/projeto1/tela.png" alt="Imagem 1"></div>
+                <div><img src="img/projeto1/formulario.png" alt="Imagem 2"></div>
+                <div><img src="img/projeto1/login.png" alt="Imagem 3"></div>
+                <div><img src="img/projeto1/consultar.png" alt="Imagem 4"></div>
+                <div><img src="img/projeto1/produto.png" alt="Imagem 5"></div>
+                <div><img src="img/projeto1/pesquisa.png" alt="Imagem 6"></div>
+                <div><img src="img/projeto1/relatorio.png" alt="Imagem 6"></div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
